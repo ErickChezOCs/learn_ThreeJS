@@ -16,7 +16,7 @@ const gui = new GUI();
 initScene(props)(({ scene, camera, renderer, orbitControls }) => {
   
   const geometry = new THREE.BoxGeometry();
-  const cubeMaterial = new THREE.MeshPhongMaterial({ color: 0x0000FF });
+  const cubeMaterial = new THREE.MeshPhongMaterial({ color: 0xFF0000 });
   const cube = new THREE.Mesh(geometry, cubeMaterial);
   
   cube.position.x = -1;
